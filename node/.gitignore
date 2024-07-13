@@ -1,0 +1,10 @@
+# 忽略上传的文件
+/public/uploads/*
+/public/pdf/*
+
+# 忽略 node_modules
+/node_modules
+
+# 忽略 .env
+.vercel
+*.local

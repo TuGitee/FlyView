@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}
+
+img {
+	-webkit-user-drag: none;
+}
+
+html,
+body {
+	height: 100%;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+
+	&::-webkit-scrollbar {
+		width: 4px;
+		display: block;
+		height: 0;
+
+		&-thumb {
+			border-radius: 0.5rem;
+			background-color: $dark-color;
+		}
+
+		&-track {
+			background-color: #ffffff;
+		}
+	}
+}
